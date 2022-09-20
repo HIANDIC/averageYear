@@ -20,6 +20,8 @@ elif [[ $age -ge 65 ]]; then
                 echo "$(($ale - $age)) years to die"
         elif 
                 echo "Already died!!!"
+        # nested if ended
+        fi
 
 fi
 
