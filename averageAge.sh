@@ -22,7 +22,7 @@ elif [[ $age -ge 65 ]]; then
                 echo "Already died!!!"
         # nested if ended
         fi
-
+# if statement ended
 fi
 
 
