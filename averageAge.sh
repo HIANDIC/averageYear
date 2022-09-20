@@ -6,8 +6,13 @@ read -p "Enter your age : " age
 read -p "Enter average life expectancy : " ale
 
 
-
 # create conditional statement
+if [[ $age -lt 18 ]]; then
+        echo "Student"
+        echo "At least $((18 - $age)) years to become a worker"
+elif [[ $age -ge 18 ]] && [[ $age -lt 65 ]]; then            
+        echo "You are worker"
+        echo "$((65 - $age)) years to retire"
 
 
 # create nested if statement
